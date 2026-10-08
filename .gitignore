@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+*.local
+
+# 环境与密钥
+.env
+*.pem
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 日志与临时
+*.log
+/tmp/
+
+# ZCode 会话数据
+.zcode/

@@ -1,0 +1,27 @@
+/* 全局样式 */
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.page-card {
+  margin: 12px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.toolbar .spacer {
+  flex: 1;
+}
+
+.pager {
+  margin-top: 12px;
+  justify-content: flex-end;
+}
